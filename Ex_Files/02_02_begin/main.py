@@ -10,3 +10,10 @@ greet_format = "Hello {}"
 formatted = greet_format.format(name)
 
 print(intrupution, formatted)
+
+test_template = "I am {}"
+
+the_name = test_template.format(name)
+
+print(the_name)
+print(formatted.replace("John", "Claudia"))
